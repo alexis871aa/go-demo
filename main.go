@@ -12,7 +12,7 @@ func main() {
 	userKg, userHeight := getUserInput()
 	IMT := calculateIMT(userKg, userHeight)
 	outputResult(IMT)
-}
+}q
 
 func outputResult(imt float64) {
 	result := fmt.Sprintf("Ваш индекс массы тела: %.0f", imt)
